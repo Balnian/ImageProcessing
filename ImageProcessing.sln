@@ -6,21 +6,52 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "ImageProcessing\ImageProcessing.csproj", "{C11F0393-15A0-46FA-B390-A88D39A07CDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcess", "ImageProcess\ImageProcess.csproj", "{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566} = {3796AF7E-0331-4B2F-8269-F1B5BBCF5566}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcceleratedFilter", "..\AcceleratedFilter\AcceleratedFilter\AcceleratedFilter.vcxproj", "{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C11F0393-15A0-46FA-B390-A88D39A07CDD}.Release|Win32.ActiveCfg = Release|Any CPU
 		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1F728B21-CEE0-4A0F-A3AB-1720DDD0A9E4}.Release|Win32.ActiveCfg = Release|Any CPU
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Debug|Win32.Build.0 = Debug|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Release|Win32.ActiveCfg = Release|Win32
+		{3796AF7E-0331-4B2F-8269-F1B5BBCF5566}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

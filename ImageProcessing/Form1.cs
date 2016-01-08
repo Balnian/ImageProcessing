@@ -28,9 +28,9 @@ namespace ImageProcessing
 
                 //PB_Processed.Image = GrayScale.Luma(PB_Original.Image);
 
-                PB_Processed.Image = Blur.Mean(PB_Original.Image);
+                //PB_Processed.Image = Blur.Mean(PB_Original.Image);
 
-
+                PB_Processed.Image = Accelerated.Copy(PB_Original.Image);
 
 
 
